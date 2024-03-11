@@ -180,7 +180,8 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-module.exports = {
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
   users,
   customers,
   invoices,
